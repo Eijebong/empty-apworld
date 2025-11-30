@@ -10,8 +10,8 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: Eijebong/ap-actions/ap-tests@main
+      - uses: Eijebong/ap-actions/ap-tests@dev
         with:
           apworld-path: empty
-          ap-version: '0.6.1'
+          ap-version: 'latest'
           python-version: '3.12'
